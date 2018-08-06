@@ -1,0 +1,7 @@
+PS1="$"
+
+PATH=$PATH:$HOME/bin
+
+alias edit="bbedit"
+
+. ~/Desktop/local/core.sh
