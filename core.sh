@@ -34,10 +34,6 @@ w() {
 }
 export w
 
-_cd(){
-	cd "$1"
-}
-
 d() {
 	cd ~/Desktop
 }
@@ -46,57 +42,12 @@ h() {
 	cd ~;
 }
 
-pop() {
-	open .
-}
-
 pub() {
 	d
 	cd Local
 }
 
-
-
-# =============
-# Paste into File
-# =============
-grm() {
-	pbpaste > README.txt
-}
-gpa() {
-	pbpaste > "$1"
-}
-
-
-
-
-# =============
-# Minifiers
-# =============
-jsMINI() {
-	f=$1
-	m="min.${f}"
-	
-	#cat "${f}" | php insert-path-here/cli.php | perl -pi -e "s/\n/; /g" > "${m}"
-}
-
-cssMINI() {
-	f=$1
-	m="min.${f}"
-	#cat "${f}" | php insert-path-here/cli.php -t css | perl -pi -e "s/\n/ /g" > "${m}"
-}
-
-
-md() {
-	pbpaste | Markdown.pl | pbcopy
-}
-
-mdd() {
-	md
-	echo "<!-- ENTRY -->" > ~/Desktop/md.txt
-	echo "<div>" >> ~/Desktop/md.txt
-	pbpaste >> ~/Desktop/md.txt
-	echo "</div>" >> ~/Desktop/md.txt
-	pbcopy < ~/Desktop/md.txt
+pop() {
+	open .
 }
 
