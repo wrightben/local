@@ -1,1 +1,0 @@
-Executables in this folder are included in path through bash_profile.txt
