@@ -4,6 +4,7 @@
 
 #### Setup
 ```
+cd ~
 ln -s ~/Desktop/Local/bash_profile.txt .bash_profile
 ```
 
