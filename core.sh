@@ -38,10 +38,6 @@ d() {
 	cd ~/Desktop
 }
 
-p() {
-	cd ~/Desktop/general/python/learning_python
-}
-
 h() {
 	cd ~;
 }
