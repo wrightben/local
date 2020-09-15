@@ -67,7 +67,9 @@ gitall() {
 
 # Push to origin
 gitpom() {
-	git push -u origin master
+	if [[ -n "$(git remote -v)" ]]; then
+		git push -u origin master
+	fi
 }
 
 # Commit and Push
