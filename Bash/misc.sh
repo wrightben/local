@@ -5,6 +5,9 @@
 
 exit 0; # DO NOT EXECUTE
 
+# HISTORY: Bash command history without line numbers
+history -w /dev/stdout
+
 
 # POP: Launch Finder to PWD
 alias pop='open -a Finder .'
