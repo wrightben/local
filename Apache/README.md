@@ -4,7 +4,7 @@
 
 ## Configure Localhost
 
-### 1 — Edit config files
+### 1| Edit config files
 
 **/etc/hosts**
 - Add localhost entry: dev.wrightben.com
@@ -49,7 +49,7 @@ Group _www
 
 
 <br /><br />
-### 2 — Permission /Library/Webserver/Documents
+### 2| Permission /Library/Webserver/Documents
 - Resolve 403 error
 ```
 cd /Library/Webserver/Documents
@@ -58,7 +58,7 @@ sudo chown -R wrightben .
 
 
 <br /><br />
-### 3 — Add an index.php file
+### 3| Add an index.php file
 ```
 <!DOCTYPE html>
 <html>
