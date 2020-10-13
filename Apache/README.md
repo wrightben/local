@@ -47,6 +47,12 @@ Group _www
 - Add VirtualHost entry
 ```
 <VirtualHost *:80>
+    ServerName localhost
+    ServerAdmin admin@localhost
+    DocumentRoot "/Library/WebServer/Documents"
+</VirtualHost>
+
+<VirtualHost *:80>
     ServerName dev.wrightben.com
     ServerAdmin admin@dev.wrightben.com
     DocumentRoot "/Library/WebServer/Documents/wrightben"
