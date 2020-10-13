@@ -19,7 +19,7 @@
 #
 ##
 127.0.0.1	localhost
-127.0.0.1	dev.[sitename].com
+127.0.0.1	dev.wrightben.com
 255.255.255.255	broadcasthost
 ::1             localhost
 
@@ -30,7 +30,7 @@
 - Uncomment PHP module
 - Change username
 ```
-User [username]
+User wrightben
 Group _www
 ```
 
