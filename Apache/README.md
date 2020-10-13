@@ -35,7 +35,7 @@
 **/etc/Apache2/httpd.conf**
 
 - **php**: uncomment: LoadModule php7_module libexec/apache2/libphp7.so
-- **User**: change to wrightben
+- **User**: change to: wrightben
 ```
 User wrightben
 Group _www
