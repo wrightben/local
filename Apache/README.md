@@ -47,6 +47,8 @@ Group _www
 </VirtualHost>
 ```
 
+
+<br /><br />
 ### 2. Permission /Library/Webserver/Documents
 - Resolve 403 error
 ```
@@ -54,6 +56,8 @@ cd /Library/Webserver/Documents
 sudo chown -R wrightben .
 ```
 
+
+<br /><br />
 ### 3. Add an index.html file
 ```
 <!DOCTYPE html>
