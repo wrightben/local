@@ -4,7 +4,7 @@
 
 ## Configure Localhost
 
-### 1. Configure Files
+### 1. Edit config files
 
 **/etc/hosts**
 - Add localhost entry: dev.wrightben.com
