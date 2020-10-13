@@ -69,13 +69,12 @@ sudo chown -R wrightben .
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>HTML</title>
+		<title>HTML: Index</title>
 	</head>
 	<body>
-		This is an HTML document in /Library/Webserver/Documents
+		<?php
+			print __FILE__;
+		?>
 	</body>
 </html>
-<?php
-	echo "PHP enabled.";
-?>
 ```
