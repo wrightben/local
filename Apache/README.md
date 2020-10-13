@@ -7,6 +7,8 @@
 
 ### 1 - Edit config files
 
+<br />
+
 **/etc/hosts**
 - Add localhost entry: dev.wrightben.com
 ```
