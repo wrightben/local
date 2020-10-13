@@ -46,7 +46,7 @@ Group _www
 ```
 
 ### Permission /Library/Webserver/Documents
-**Resolves 403 error**
+- Resolve 403 error
 ```
 cd /Library/Webserver/Documents
 sudo chown -R wrightben .
