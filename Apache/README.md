@@ -5,7 +5,7 @@
 ## File Configurations
 
 */etc/hosts*
-
+- Add localhost entry: dev.wrightben.com
 ```
 ##
 # Host Database
@@ -36,6 +36,7 @@ Group _www
 
 
 */etc/Apache2/extra/httpd-vhosts.conf*
+- Add VirtualHost entry
 ```
 <VirtualHost *:80>
     ServerName dev.wrightben.com
