@@ -49,7 +49,7 @@ Group _www
 <VirtualHost *:80>
     ServerName dev.wrightben.com
     ServerAdmin admin@dev.wrightben.com
-    DocumentRoot "/Library/WebServer/Documents/"
+    DocumentRoot "/Library/WebServer/Documents/wrightben"
 </VirtualHost>
 ```
 
