@@ -28,7 +28,6 @@
 */etc/Apache2/httpd.conf*
 
 - Uncomment PHP module
-
 - Change username
 ```
 User [username]
