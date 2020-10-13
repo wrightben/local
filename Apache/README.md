@@ -34,13 +34,13 @@
 
 **/etc/Apache2/httpd.conf**
 
-- PHP: Uncomment: LoadModule php7_module libexec/apache2/libphp7.so
+- **php**: uncomment: LoadModule php7_module libexec/apache2/libphp7.so
 - Change username
 ```
 User wrightben
 Group _www
 ```
-- Vhosts: Uncomment: Include /private/etc/apache2/extra/httpd-vhosts.conf
+- **vhosts**: uncomment: Include /private/etc/apache2/extra/httpd-vhosts.conf
 <br />
 
 **/etc/Apache2/extra/httpd-vhosts.conf**
