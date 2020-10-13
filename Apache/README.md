@@ -28,6 +28,7 @@
 
 ```
 
+<br />
 **/etc/Apache2/httpd.conf**
 
 - Uncomment PHP module
@@ -37,7 +38,7 @@ User wrightben
 Group _www
 ```
 
-
+<br />
 **/etc/Apache2/extra/httpd-vhosts.conf**
 - Add VirtualHost entry
 ```
