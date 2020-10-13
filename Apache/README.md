@@ -5,7 +5,6 @@
 ## Configure Localhost
 
 
-<br />
 ### 1 - Edit config files
 
 **/etc/hosts**
