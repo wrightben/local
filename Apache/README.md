@@ -2,9 +2,9 @@
 
 10.15.7
 
-## File Configurations
+## Configure Localhost
 
-### 1. Configure ... 
+### 1. Configure Files
 
 **/etc/hosts**
 - Add localhost entry: dev.wrightben.com
