@@ -58,7 +58,7 @@ sudo chown -R wrightben .
 
 
 <br /><br />
-### 3. Add an index.[html|php] file
+### 3. Add an index.php file
 ```
 <!DOCTYPE html>
 <html>
