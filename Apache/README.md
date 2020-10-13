@@ -4,7 +4,7 @@
 
 ## File Configurations
 
-*/etc/hosts*
+**/etc/hosts**
 - Add localhost entry: dev.wrightben.com
 ```
 ##
@@ -25,7 +25,7 @@
 
 ```
 
-*/etc/Apache2/httpd.conf*
+**/etc/Apache2/httpd.conf**
 
 - Uncomment PHP module
 - Change username
@@ -35,7 +35,7 @@ Group _www
 ```
 
 
-*/etc/Apache2/extra/httpd-vhosts.conf*
+**/etc/Apache2/extra/httpd-vhosts.conf**
 - Add VirtualHost entry
 ```
 <VirtualHost *:80>
@@ -43,4 +43,27 @@ Group _www
     ServerAdmin admin@wrightben.com
     DocumentRoot "/Library/WebServer/Documents/"
 </VirtualHost>
+```
+
+### Permission /Library/Webserver/Documents
+**Resolves 403 error**
+```
+cd /Library/Webserver/Documents
+sudo chown -R wrightben .
+```
+
+### Add an index.html file
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML</title>
+	</head>
+	<body>
+		This is an HTML document in /Library/Webserver/Documents
+	</body>
+</html>
+<?php
+	echo "PHP enabled.";
+?>
 ```
