@@ -51,7 +51,7 @@ Group _www
 
 <br /><br />
 ### 2 - Permission /Library/Webserver/Documents
-- Resolve 403 error and provide write permission for files in /Documents
+- Resolve 403 error  ... and provide write permission for files in directory
 ```
 cd /Library/Webserver/Documents
 sudo chown -R wrightben .
