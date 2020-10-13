@@ -4,6 +4,8 @@
 
 ## File Configurations
 
+### 1. Configure ... 
+
 **/etc/hosts**
 - Add localhost entry: dev.wrightben.com
 ```
@@ -40,19 +42,19 @@ Group _www
 ```
 <VirtualHost *:80>
     ServerName dev.wrightben.com
-    ServerAdmin admin@wrightben.com
+    ServerAdmin admin@dev.wrightben.com
     DocumentRoot "/Library/WebServer/Documents/"
 </VirtualHost>
 ```
 
-### Permission /Library/Webserver/Documents
+### 2. Permission /Library/Webserver/Documents
 - Resolve 403 error
 ```
 cd /Library/Webserver/Documents
 sudo chown -R wrightben .
 ```
 
-### Add an index.html file
+### 3. Add an index.html file
 ```
 <!DOCTYPE html>
 <html>
