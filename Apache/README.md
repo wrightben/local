@@ -34,13 +34,13 @@
 
 **/etc/Apache2/httpd.conf**
 
-- Uncomment PHP module
+- Uncomment PHP module line
 - Change username
 ```
 User wrightben
 Group _www
 ```
-
+- Uncomment vhosts.conf line
 <br />
 
 **/etc/Apache2/extra/httpd-vhosts.conf**
