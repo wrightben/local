@@ -86,7 +86,7 @@ ls * | grep -vE "1[5|6]" | sed -e 's/ /\\ /g' | xargs rm
 
 
 # Kill a process
-ps -e | grep deadman.pl | perl -p -e 's{\s*(\d+).*}{$1}g' | xargs kill
+ps -e | grep somescript.pl | perl -p -e 's{\s*(\d+).*}{$1}g' | xargs kill
 
 
 # More FINDs
