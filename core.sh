@@ -8,7 +8,7 @@ export DEPLOY="/Users/$thisuser/Desktop/Local/project-deploy/"
 # =============
 # Includes
 # =============
-. ~/Desktop/Local/git/git.sh
+. ~/Desktop/local/git/git.sh
 
 
 
