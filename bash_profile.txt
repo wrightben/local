@@ -5,24 +5,3 @@ PATH=$PATH:$HOME/bin
 alias edit="bbedit"
 
 . ~/Desktop/local/core.sh
-
-# PYTHON3.X
-
-# The Python installer, which puts the Python3.X folder in /Applications, puts the executable in 
-# /usr/bin as in:
-# /usr/bin/python -v # 2.7
-# /usr/bin/python3 -v # 3.X
-
-# Setting PATH for Python 3.9
-# The original version is saved in .bash_profile.pysave
-# PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
-# export PATH
-
-# Python3.x
-# python3.x --version
-# which python3.x
-
-# Setting PATH for Python 3.11
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
-export PATH
