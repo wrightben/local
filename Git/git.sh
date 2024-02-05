@@ -37,8 +37,7 @@ gitreg() {
 
 gitclone() {
 	db="$1"
-	#git clone https://github.com/wrightben/${db}.git .
-	git clone /Users/bwright/Desktop/Git/${db} .
+	git clone https://github.com/wrightben/${db}.git .
 	#gitreg
 }
 
