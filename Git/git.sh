@@ -74,7 +74,7 @@ gitpom() {
 
 # Commit and Push
 gitpo() {
-	echo "-------------------------------"; pwd
+	echo "\n-------------------------------"; pwd
 	gitall; gitpom
 }
 
