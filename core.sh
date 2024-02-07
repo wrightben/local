@@ -25,10 +25,8 @@ pop() {
 }
 
 dbclone() {
-	d
-	cd ~/Desktop/local/git
-	sh clone.sh
-	d
+	gitclone resume
+	gitclone languages
 }
 
 dbcommit() {

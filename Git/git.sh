@@ -36,9 +36,16 @@ gitreg() {
 
 
 gitclone() {
+	d
+	pwd
 	db="$1"
+	echo ""
+	echo "-----------------gitclone() ${db}-----------------";
+	echo "";
+	mkdir ${db}
+	cd ${db}
 	git clone https://github.com/wrightben/${db}.git .
-	#gitreg
+	d
 }
 
 
@@ -75,7 +82,7 @@ gitpom() {
 # Commit and Push
 gitpo() {
 	echo "";
-	echo "-----------------GITPO-----------------";
+	echo "-----------------gitpo()-----------------";
 	echo "";
 	pwd
 	gitall; gitpom
