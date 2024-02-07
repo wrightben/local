@@ -6,7 +6,9 @@
 d
 
 db=resume
-echo "Cloning ${db}"
+echo ""
+echo "-----------------Cloning ${db}-----------------";
+echo "";
 mkdir ${db}
 cd ${db}
 gitclone ${db}
@@ -14,7 +16,9 @@ gitclone ${db}
 d
 
 db=languages
-echo "Cloning ${db}"
+echo ""
+echo "-----------------Cloning ${db}-----------------";
+echo "";
 mkdir ${db}
 cd ${db}
 gitclone ${db}
