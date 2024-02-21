@@ -4,6 +4,12 @@
 . ~/Desktop/local/git/git.sh
 
 
+
+pop() {
+	open .
+}
+
+
 # =============
 # Locations
 # =============
@@ -20,10 +26,14 @@ pub() {
 	cd Local
 }
 
-pop() {
-	open .
+tac() {
+	cd ~/Desktop/languages/javascript/Games/tic-tac-toe/
 }
 
+
+# =============
+# Git Summaries
+# =============
 dbclone() {
 	gitclone resume
 	gitclone languages
