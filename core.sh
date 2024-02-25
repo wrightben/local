@@ -41,13 +41,16 @@ dbclone() {
 
 dbcommit() {
 	pub
+	git status
 	gitpo
 	
 	d
 	cd resume
+	git status
 	gitpo
 	
 	d
 	cd languages
+	git status
 	gitpo
 }
