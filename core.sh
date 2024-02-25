@@ -47,16 +47,19 @@ dbclone() {
 
 dbcommit() {
 	pub
+	dbsummary
 	git status
 	gitpo
 	
 	d
 	cd resume
+	dbsummary	
 	git status
 	gitpo
 	
 	d
 	cd languages
+	dbsummary	
 	git status
 	gitpo
 }
