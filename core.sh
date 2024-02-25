@@ -34,6 +34,12 @@ tac() {
 # =============
 # Git Summaries
 # =============
+dbsummary() {
+	echo "------------------------------------"
+	echo pwd
+	echo "------------------------------------"	
+}
+
 dbclone() {
 	gitclone resume
 	gitclone languages
