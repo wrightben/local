@@ -52,11 +52,11 @@ dbcommit() {
 	git status
 	gitpo
 	
-	d
-	cd resume
-	dbsummary	
-	git status
-	gitpo
+# 	d
+# 	cd resume
+# 	dbsummary	
+# 	git status
+# 	gitpo
 	
 	d
 	cd languages
