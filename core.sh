@@ -3,7 +3,10 @@
 # =============
 . ~/Desktop/local/git/git.sh
 
-
+c() {
+	clear;
+	exit;
+}
 
 o() {
 	open .
