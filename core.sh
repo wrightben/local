@@ -29,10 +29,6 @@ pub() {
 	cd Local
 }
 
-tac() {
-	cd ~/Desktop/languages/javascript/Games/tic-tac-toe/
-}
-
 
 # =============
 # Git Summaries
